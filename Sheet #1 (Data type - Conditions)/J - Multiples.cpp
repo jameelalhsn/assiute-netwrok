@@ -4,12 +4,11 @@ using namespace std ;
 int main(){
 int a,b;
 cin >> a >> b;
-if (a > b ){
-    cout << "Yes"<<endl;
-}else if (a == b){
-    cout << "Yes"<<endl;
-}else if (a<b){
-    cout << "No"<<endl;
+      if (b % a == 0){
+    cout << "Multiples"<<endl;
+} else if (a % b == 0 ){
+    cout  << "Multiples"<<endl;
+}else {
+    cout <<"No Multiples"<<endl;
 }
- 
- }
+}
