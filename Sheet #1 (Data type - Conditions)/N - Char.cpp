@@ -1,15 +1,12 @@
 #include <iostream>
+#include <array>
 #include <cmath>
 using namespace std ;
 int main(){
-int a,b;
-cin >> a >> b;
-if (a > b ){
-    cout << "Yes"<<endl;
-}else if (a == b){
-    cout << "Yes"<<endl;
-}else if (a<b){
-    cout << "No"<<endl;
+char world;
+cin >>world;
+if(int(world)>90)
+{
+     cout <<char(world-32);
+}else {cout << char(world+32);}
 }
- 
- }
